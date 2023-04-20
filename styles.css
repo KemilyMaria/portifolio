@@ -1,0 +1,102 @@
+.container {
+display: flex;
+}
+
+.container a {
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+}
+
+.container img {
+border: 6px solid white;
+}
+
+.lista1{
+background-color: mediumpurple;
+padding-top: 100px; /* em cima */
+padding-right: 40px; /* direita */
+padding-bottom: 250px; /* em baixo */
+padding-left: 15px; /* esquerda */
+font-size: 25px;
+}
+
+.lista2{
+    background-color:aliceblue;
+    width: 1000px;
+    font-size: 30px;
+    text-align: justify;
+    align-items: center;
+    display: flex;
+}
+
+.lista2 p{
+    padding: 40px;
+}
+
+.nobull{
+    list-style-type: none;
+}
+
+img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.sobre{
+    line-height: 0px;
+}
+
+.sobre .nome {
+    font-size: 70px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 40px;
+    font-family: fantasy;
+}
+
+.sobre .sobrenome{
+    color: mediumpurple;
+}
+
+.endereco {
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.sobre .gmail{
+    color: mediumpurple;
+}
+
+.sobre p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.redes_sociais img{
+    width: 50px;
+}
+
+.redes_sociais{
+    padding-left: 40px;
+}
+
+.lista2 .pro{
+    color:mediumpurple;
+}
+
+.lista2 .pes{
+    color: mediumpurple;
+}
+
+.lista2 .nobull {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista2 .font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font ::marker {
+    color: mediumpurple;
+}
